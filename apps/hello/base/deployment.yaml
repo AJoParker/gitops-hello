@@ -12,6 +12,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.27
+        image: ghcr.io/ajoparker/gitops-hello
+        newTag: "sha-0223477"
         ports:
           - containerPort: 80
