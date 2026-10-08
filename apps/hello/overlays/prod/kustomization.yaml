@@ -7,5 +7,5 @@ replicas:
   - name: hello
     count: 3
 images:
-  - name: nginx
-    newTag: "1.26"
+  - name: ghcr.io/ajoparker/gitops-hello
+    newTag: "sha-0223477"
